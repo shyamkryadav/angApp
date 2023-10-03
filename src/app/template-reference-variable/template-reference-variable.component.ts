@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./template-reference-variable.component.css']
 })
 export class TemplateReferenceVariableComponent {
+  getInputInfo(e:any){
+    console.log(e.value)
+    console.log(e.id)
+    console.log(e.type)
 
+  }
 }
