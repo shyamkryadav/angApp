@@ -1,1 +1,15 @@
-<p>switches works!</p>
+<div>
+    <select (change)="getProduct($event)" >
+        <option value="laptop">Laptop</option>
+        <option value="computer">Computer</option>
+        <option value="mobile">Mobile</option>
+    </select>
+</div>
+
+
+<div [ngSwitch]="seletedProperty">
+    <h2 *ngSwitchCase="'laptop'">Laptop</h2>
+    <h2 *ngSwitchCase="'computer'">computer</h2>
+    <h2 *ngSwitchCase="'mobile'">Mobile</h2>
+    <h2 *ngSwitchDefault="'default'">Please Select Product</h2>
+</div>
