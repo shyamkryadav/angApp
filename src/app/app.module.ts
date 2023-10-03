@@ -17,6 +17,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductComponent } from './product/product.component';
 import { AboutComponent } from './about/about.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { AboutComponent } from './about/about.component';
     ContactComponent,
     ProductComponent,
     AboutComponent,
+    LoginComponent,
     
 
 
