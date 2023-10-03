@@ -11,6 +11,7 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
 import { FormsModule } from '@angular/forms';
 import { IfElseComponent } from './if-else/if-else.component';
 import { SwitchesComponent } from './switches/switches.component';
+import { ForLoopComponent } from './for-loop/for-loop.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { SwitchesComponent } from './switches/switches.component';
     TwoWayBindingComponent,
     IfElseComponent,
     SwitchesComponent,
+    ForLoopComponent,
     
 
 
