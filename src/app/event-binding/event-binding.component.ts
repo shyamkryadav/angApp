@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./event-binding.component.css']
 })
 export class EventBindingComponent {
+  msg:string='';  
+  onAddCart(){
+     this.msg="Pracut added in card"
+  }
 
+  getValue(event:any){
+    console.log(event.target.value)
+  }
+
+  product(event:any){
+    this.msg=` ${event.target.value } Pracut added in card`;
+  }
 }

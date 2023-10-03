@@ -1,1 +1,11 @@
-<p>event-binding works!</p>
+<button (click)="onAddCart()">Add to Cart</button>
+
+
+
+<input type="text" name="" id="" (input)="getValue($event)">
+
+<button value="computer" (click)="product($event)">Computer</button>
+<button value="laptop" (click)="product($event)">Laptop</button>
+<button value="mobile" (click)="product($event)">Mobilr</button>
+
+<p> {{msg}} </p>
