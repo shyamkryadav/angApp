@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ForLoopComponent {
 
+  product=[
+    {proimg:'altalt',name:'laptop',Id:'pro01',price:1500},
+    {proimg:'altalt',name:'computer',Id:'pro01',price:1600},
+    {proimg:'altalt',name:'Mobile',Id:'pro01',price:10000},
+  ]
 }
