@@ -12,4 +12,23 @@ export class ForLoopComponent {
     {proimg:'altalt',name:'computer',Id:'pro01',price:1600},
     {proimg:'altalt',name:'Mobile',Id:'pro01',price:10000},
   ]
+
+  users:any[]=[];
+
+
+  onCreateUser(UserName:any){
+    if(UserName.value !==""){
+      this.users.push({
+        name:UserName.value
+      })
+    }
+  }
+
+  onRemoveUser(){
+    this.users.splice(this.users.length-1)
+  }
+  onRemoveUserId(i:number){
+    this.users.splice(i,1)
+
+  }
 }

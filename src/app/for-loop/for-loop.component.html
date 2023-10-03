@@ -1,4 +1,4 @@
-<table>
+<!-- <table>
     <thead>
         <tr>
             <th>Sr.No</th>
@@ -10,8 +10,8 @@
     </thead>
     <tbody>
         <tr *ngFor="let item of product; index as i">  
-        <!-- <tr *ngFor="let item of product; odd as i">  
-        <tr *ngFor="let item of product; even as i">   -->
+        <tr *ngFor="let item of product; odd as i">  
+        <tr *ngFor="let item of product; even as i">  
             <td># {{i+1}}</td>
             <td>{{item.proimg}}</td>
             <td>{{item.name}}</td>
@@ -19,4 +19,26 @@
             <td>{{item.price}}</td>
         </tr>
     </tbody>
+</table> -->
+
+
+<input type="text" placeholder="User Name " #UName>
+<button (click)="onCreateUser(UName)">Create user</button>
+<button (click)="onRemoveUser()">Remove </button>
+<table>
+    <thead>
+        <tr>
+            <th>UserName</th>
+            <th>Remove</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users; index as i">
+            <td>{{user.name}}</td>
+            <td><button (click)="onRemoveUserId(i)">Remove</button>
+            </td>
+        </tr>
+    </tbody>
 </table>
+
+
