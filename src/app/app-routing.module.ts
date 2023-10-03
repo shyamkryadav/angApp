@@ -15,6 +15,14 @@ const routes: Routes = [
   {path:'product',component:ProductComponent},
   {path:'contact',component:ContactComponent},
   {path:'**',component:PageNotFoundComponent},
+
+  // {path:'product',children:[
+  //   {path:'',component:ProductComponent},
+  //   // {path:'laptop',component:LaptopComponent},
+  //   {path:'',component:ProductComponent},
+  //   {path:'',component:ProductComponent},
+  // ]},
+
 ];
 
 @NgModule({
