@@ -12,6 +12,12 @@ import { FormsModule } from '@angular/forms';
 import { IfElseComponent } from './if-else/if-else.component';
 import { SwitchesComponent } from './switches/switches.component';
 import { ForLoopComponent } from './for-loop/for-loop.component';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
+import { ProductComponent } from './product/product.component';
+import { AboutComponent } from './about/about.component';
+
 
 @NgModule({
   declarations: [
@@ -24,6 +30,11 @@ import { ForLoopComponent } from './for-loop/for-loop.component';
     IfElseComponent,
     SwitchesComponent,
     ForLoopComponent,
+    HeaderComponent,
+    HomeComponent,
+    ContactComponent,
+    ProductComponent,
+    AboutComponent,
     
 
 
