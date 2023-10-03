@@ -7,6 +7,10 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import { ClassAndStyleComponent } from './class-and-style/class-and-style.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TemplateReferenceVariableComponent } from './template-reference-variable/template-reference-variable.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { FormsModule } from '@angular/forms';
+import { IfElseComponent } from './if-else/if-else.component';
+import { SwitchesComponent } from './switches/switches.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +18,18 @@ import { TemplateReferenceVariableComponent } from './template-reference-variabl
     DataBindingComponent,
     ClassAndStyleComponent,
     EventBindingComponent,
-    TemplateReferenceVariableComponent
+    TemplateReferenceVariableComponent,
+    TwoWayBindingComponent,
+    IfElseComponent,
+    SwitchesComponent,
+    
+
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
