@@ -1,0 +1,12 @@
+<div class="box" [class.myClass]="myPro" [style.margin]="isActive ? divMargin : '50px' "> this is Div</div>
+
+
+<div [ngClass]=" 'class1 class2  class3' ">ngClass</div>
+<div [ngClass]="mltClass">ngClass</div>
+
+<div [ngStyle]="{
+    'color':'red',
+    'border':'10px solid green'
+}" > Hello Style</div>
+
+<div [ngStyle]="divStyle"> Style container</div>

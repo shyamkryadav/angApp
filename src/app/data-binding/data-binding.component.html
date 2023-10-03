@@ -1,0 +1,21 @@
+<h1>My Name is {{name}}</h1>
+
+<!-- we can use expression alos  -->
+<h2>{{5+9}}</h2>
+
+<!-- String concatenaion  -->
+<h3>{{"wel come" + name}}</h3>
+
+<h4>{{name.length}}</h4>
+<h4>{{name.toUpperCase()}}</h4>
+
+<h4>{{myfun()}}</h4>
+
+<p>My App Status is {{appStatus? 'Online':'Offline'}}</p>
+<p>My App Status is {{appStatus? status1:status2}}</p>
+
+
+<h1>Property Binding</h1>
+<input type="text" name="" id="" [disabled]="!true" value={{name}}> <br> <br>
+<input type="text" name="" id="" [value]="name" [value]="appStatus? status1:status2"> <br> <br>
+<input type="text" name="" id="" [hidden]="enable" bind-value="name"> <br> <br>
